@@ -9,4 +9,4 @@ class FlightSerializer(serializers.ModelSerializer):
 class ReservationSerializer(serializers.ModelSerializer):
     class Meta:
         model = Reservation
-        field = '__all__'
+        fields = '__all__'
