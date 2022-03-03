@@ -8,4 +8,5 @@ router.register('reservation',views.ReservationViewSet),
 
 urlpatterns = [
     path('flightService/',include(router.urls)),
+    path('flightService/findFlights/',views.find_flights),
 ]
